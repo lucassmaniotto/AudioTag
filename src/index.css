@@ -1,0 +1,17 @@
+:root{
+    --font: 'Barlow', sans-serif;
+    --black: #000000;
+    --green: #339677;
+    --grey: #ebebeb;
+    --white: #FFFFFF;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+    background-color: var(--white);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+}

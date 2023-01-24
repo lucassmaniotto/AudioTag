@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "Bring Me The Horizon",
+        "cover": "https://imagizer.imageshack.com/img922/6895/M4kP1B.png",
+        "link": "https://www.youtube.com/embed/TkV5709EG5M"
+    },
+    {
+        "id": 2,
+        "title": "Paramore",
+        "cover": "https://imagizer.imageshack.com/img924/137/RCVjWs.png",
+        "link": "https://www.youtube.com/embed/xIYJ7VaSxYY"
+    },
+    {
+        "id": 3,
+        "title": "Jovem Dionísio",
+        "cover": "https://imagizer.imageshack.com/img922/4037/G5osDG.png",
+        "link": "https://www.youtube.com/embed/rcLQu5yg5LE"
+    },
+    {
+        "id": 4,
+        "title": "Terno Rei",
+        "cover": "https://imagizer.imageshack.com/img923/4782/8cSw06.png",
+        "link": "https://www.youtube.com/embed/8ESd3A9D-3E"
+    },
+    {
+        "id": 5,
+        "title": "BROCKHAMPTON",
+        "cover": "https://imagizer.imageshack.com/img924/4144/KLU8I2.png",
+        "link": "https://www.youtube.com/embed/4cucHc2vef4"
+    },
+    {
+        "id": 6,
+        "title": "Tame Impala",
+        "cover": "https://imagizer.imageshack.com/img922/5107/q6yxur.png",
+        "link": "https://www.youtube.com/embed/KN8nJFLu1Rk"
+    },
+    {
+        "id": 7,
+        "title": "Arctic Monkeys",
+        "cover": "https://imagizer.imageshack.com/img922/7817/r9rkdu.png",
+        "link": "https://www.youtube.com/embed/71Es-8FfATo"
+    },
+    {
+        "id": 8,
+        "title": "Linkin Park",
+        "cover": "https://imagizer.imageshack.com/img923/5098/yWPgy3.png",
+        "link": "https://www.youtube.com/embed/v2H4l9RpkwM"
+    }
+]
