@@ -2,49 +2,73 @@
     {
         "id": 1,
         "title": "Bring Me The Horizon",
-        "cover": "https://imagizer.imageshack.com/img922/6895/M4kP1B.png",
+        "cover": "https://iili.io/H0u6AUF.png",
         "link": "https://www.youtube.com/embed/TkV5709EG5M"
     },
     {
         "id": 2,
         "title": "Paramore",
-        "cover": "https://imagizer.imageshack.com/img924/137/RCVjWs.png",
+        "cover": "https://iili.io/H0u65Hg.png",
         "link": "https://www.youtube.com/embed/xIYJ7VaSxYY"
     },
     {
         "id": 3,
         "title": "Jovem Dionísio",
-        "cover": "https://imagizer.imageshack.com/img922/4037/G5osDG.png",
+        "cover": "https://iili.io/H0u6ul1.png",
         "link": "https://www.youtube.com/embed/rcLQu5yg5LE"
     },
     {
         "id": 4,
         "title": "Terno Rei",
-        "cover": "https://imagizer.imageshack.com/img923/4782/8cSw06.png",
+        "cover": "https://iili.io/H0u6TKP.png",
         "link": "https://www.youtube.com/embed/8ESd3A9D-3E"
     },
     {
         "id": 5,
         "title": "BROCKHAMPTON",
-        "cover": "https://imagizer.imageshack.com/img924/4144/KLU8I2.png",
+        "cover": "https://iili.io/H0u6xVV.png",
         "link": "https://www.youtube.com/embed/4cucHc2vef4"
     },
     {
         "id": 6,
         "title": "Tame Impala",
-        "cover": "https://imagizer.imageshack.com/img922/5107/q6yxur.png",
+        "cover": "https://iili.io/H0u6ziB.png",
         "link": "https://www.youtube.com/embed/KN8nJFLu1Rk"
     },
     {
         "id": 7,
         "title": "Arctic Monkeys",
-        "cover": "https://imagizer.imageshack.com/img922/7817/r9rkdu.png",
+        "cover": "https://iili.io/H0u6CDx.png",
         "link": "https://www.youtube.com/embed/71Es-8FfATo"
     },
     {
         "id": 8,
         "title": "Linkin Park",
-        "cover": "https://imagizer.imageshack.com/img923/5098/yWPgy3.png",
+        "cover": "https://iili.io/H0u6ooQ.png",
         "link": "https://www.youtube.com/embed/v2H4l9RpkwM"
+    },
+    {
+        "id": 9,
+        "title": "The Strokes",
+        "cover": "https://iili.io/H0uLsv1.png",
+        "link": "https://www.youtube.com/embed/b8-tXG8KrWs"
+    },
+    {
+        "id": 10,
+        "title": "Gorillaz",
+        "cover": "https://iili.io/H0uQpDu.png",
+        "link": "https://www.youtube.com/embed/qJa-VFwPpYA"
+    },
+    {
+        "id": 11,
+        "title": "The Marías",
+        "cover": "https://iili.io/H0utlkP.png",
+        "link": "https://www.youtube.com/embed/YzKM5g_FwYU"
+    },
+    {
+        "id": 12,
+        "title": "Lagum",
+        "cover": "https://iili.io/H0uDNPj.png",
+        "link": "https://www.youtube.com/embed/JsbvyRXpNmE"
     }
 ]

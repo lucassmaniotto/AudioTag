@@ -7,5 +7,5 @@
 }
 
 .header a {
-    height: 88px;
+    max-height: 88px;
 }

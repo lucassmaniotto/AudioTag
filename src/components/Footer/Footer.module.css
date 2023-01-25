@@ -8,9 +8,15 @@
     color: var(--white);
 }
 
-.ancor{
+.footer__text{
+    font-size: 1em;
+    margin: 0 0 1.5em 0;
+}
+
+.footer__textAncor{
     color: var(--green);
     text-decoration: none;
+    font-style: italic;
 }
 
 .ancor:hover{
@@ -18,7 +24,7 @@
     transition: 0.5s;
 }
 
-.socialLinks{
+.footer__socialLinks{
     display: flex;
     justify-content: center;
     align-items: center;
