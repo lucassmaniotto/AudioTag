@@ -1,5 +1,6 @@
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1.1em 20em;
@@ -8,6 +9,29 @@
 }
 
 .ancor{
-    color: var(--white);
+    color: var(--green);
     text-decoration: none;
+}
+
+.ancor:hover{
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+}
+
+.socialIcons{
+    color: var(--green);
+    margin: 0 0.5em;
+    font-size: 25px;
+}
+
+.socialIcons:hover{
+    color: var(--white);
+    transition: 0.5s;
 }
