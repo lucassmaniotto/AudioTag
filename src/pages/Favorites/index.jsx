@@ -1,18 +1,23 @@
 import Banner from 'components/Banner';
 import Card from 'components/Card';
 import Title from 'components/Title';
+
+import { useFavoriteContext } from 'context/Favorites';
+
 import styles from './Favorites.module.css';
 
 export default function Favorites() {
-  return (
-    <>
-      <Banner image="favorites" />
-      <Title>
-        <h1>Meus Favoritos</h1>
-      </Title>
-      <section className={styles.container}>
-        <Card title="Bring Me The Horizon" cover="https://iili.io/H0u6AUF.png" />
-      </section>
-    </>
-  )
-}
+
+  const { favorite } = useFavoriteContext();
+    return (
+      <>
+        <Banner image="favorites" />
+        <Title>
+          <h1>Meus Favoritos</h1>
+        </Title>
+        <section className={styles.container}>
+          {favorite.length > 0 ? (favorite.map((fav) => {return <Card {...fav} key={fav.id} />})) : (<p className={styles.empty}>Nenhuma banda foi adicionada!</p>)}
+        </section>
+      </>
+    )
+  }

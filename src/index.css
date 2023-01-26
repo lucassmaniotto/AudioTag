@@ -7,9 +7,12 @@
     --white: #ecebeb;
 }
 
+html {
+  background-color: var(--black);
+}
+
 body{
     margin: 0;
-    padding: 0;
     font-family: var(--font);
     background-color: var(--background-color);
     -webkit-font-smoothing: antialiased;
