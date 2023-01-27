@@ -1,12 +1,22 @@
 import Banner from 'components/Banner';
 import Card from 'components/Card';
 import Title from 'components/Title';
-import React from 'react';
-import videos from 'json/db.json';
+
+import { useEffect, useState } from 'react';
 
 import styles from './Home.module.css';
 
 export default function Home() {
+  const [videos, setVideos] = useState([]);
+
+  useEffect(() => {
+    fetch('https://my-json-server.typicode.com/lucassmaniotto/api-audiotag/videos')
+      .then((response) => response.json())
+      .then((data) => {
+        setVideos(data)
+      })
+  }, []);
+
   return (
     <>
       <Banner image="home" />
