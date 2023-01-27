@@ -3,3 +3,9 @@
     text-align: center;
     padding-bottom: 7em;
 }
+
+@media screen and (max-width: 1148px) {
+    .container section {
+        margin: 2em 1em 4em;
+    }
+}

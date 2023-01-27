@@ -7,7 +7,7 @@ export default function Nav() {
   return (
     <header className={styles.header}>
         <Link to="/">
-            <Logo alt="Logo da AudioTag"/>
+            <Logo alt="Logo da AudioTag" className={styles.logo}/>
         </Link>
         <nav>
           <HeaderLink 

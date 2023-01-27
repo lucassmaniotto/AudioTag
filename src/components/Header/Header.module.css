@@ -9,3 +9,19 @@
 .header a {
     max-height: 88px;
 }
+
+@media screen and (max-width: 1148px) {
+    .header {
+        padding: 0 1em;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .header {
+        padding: 0;
+    }
+
+    .logo, .header a {
+        max-height: 70px;
+    }
+}

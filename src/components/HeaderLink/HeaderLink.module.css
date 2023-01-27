@@ -10,3 +10,9 @@
 .link:hover {
     color: var(--green);
 }
+
+@media screen and (max-width: 1148px) {
+    .link {
+        padding: 0 0.5rem;
+    }
+}
