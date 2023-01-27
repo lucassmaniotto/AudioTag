@@ -29,7 +29,9 @@ export function useFavoriteContext() {
         newList.splice(
             newList.findIndex(item => item.id === newFavorite.id), 1
         );
+
         
+
         return setFavorite(newList);
     }
 

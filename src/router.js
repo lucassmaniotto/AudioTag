@@ -1,24 +1,22 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Favorites from 'pages/Favorites';
 import Home from 'pages/Home';
-import Footer from 'components/Footer';
-import Header from 'components/Header';
-import Container from 'components/Container';
-import FavoritesProvider from 'context/Favorites';
+import Player from 'pages/Player';
+import NotFound from 'pages/NotFound';
+import DefaultPage from 'pages/DefaultPage';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 export default function AppRoutes() {
   return (
     <BrowserRouter>
-      <Header />
-      <Container>
-        <FavoritesProvider>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/favorites" element={<Favorites />} />
-          </Routes>
-        </FavoritesProvider>
-      </Container>
-      <Footer />
+        <Routes>
+          <Route path="/" element={<DefaultPage />}>
+            <Route index element={<Home />} />
+            <Route path="favorites" element={<Favorites />} />
+            <Route path="videos/:id" element={<Player />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
     </BrowserRouter>
   );
 }

@@ -16,7 +16,7 @@ export default function Favorites() {
           <h1>Meus Favoritos</h1>
         </Title>
         <section className={styles.container}>
-          {favorite.length > 0 ? (favorite.map((fav) => {return <Card {...fav} key={fav.id} />})) : (<p className={styles.empty}>Nenhuma banda foi adicionada!</p>)}
+          {favorite.length > 0 ? (favorite.map((fav) => {return <Card {...fav} key={fav.id} />})) : (<p className={styles.empty}>Nenhuma banda foi adicionada!<h1>¯\_(ツ)_/¯</h1></p>)}
         </section>
       </>
     )

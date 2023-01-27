@@ -7,9 +7,11 @@
     --white: #ecebeb;
 }
 
-html {
-  background-color: var(--black);
+html{
+  min-height: 100%;
+  position: relative;
 }
+
 
 body{
     margin: 0;

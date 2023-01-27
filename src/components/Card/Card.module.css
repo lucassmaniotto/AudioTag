@@ -7,13 +7,24 @@
     justify-content: space-between;
 }
 
+.container:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.3rem var(--green));
+    transform: scale(1.05);
+}
+
 .cover {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    cursor: pointer;
 }
 
-.card__info{
+.cover:hover {
+    transition: 0.5s;
+}
+
+.info{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,7 +35,7 @@
     border-bottom-right-radius: 10px;
 }
 
-.cover, .card__info{
+.cover, .info{
     box-shadow: 3px 3px 5px var(--black);
 }
 
@@ -43,4 +54,8 @@
 
 .container h2, .favorite{
     text-align: center;
+}
+
+.link{
+ max-height: 351px;   
 }

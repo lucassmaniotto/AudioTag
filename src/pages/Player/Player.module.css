@@ -1,0 +1,10 @@
+.video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 15em;
+    height: 80vh;
+}
