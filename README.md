@@ -54,4 +54,6 @@ Para cada página de artigo, o conteúdo é renderizado em uma rota dinâmica *v
 
 Cada card possui um botão de favorito, onde é compartilhado o contexto entre as páginas de Início e Favoritos. Além disso, ao apertar na imagem da banda é possível acessar seus video clipes provindos da Fake API:
 
+![image](https://user-images.githubusercontent.com/101435037/215467835-b112746f-14c0-4782-93ec-d1d50a41ed7b.png)
+
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/101435037/215462995-663de24d-b1b1-4318-a72d-238bf11c16ff.gif)
