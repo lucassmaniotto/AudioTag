@@ -52,7 +52,7 @@ Para cada página de artigo, o conteúdo é renderizado em uma rota dinâmica *v
 
 ### Favoritando bandas
 
-Cada card possui um botão de favorito, onde é compartilhado o contexto entre as páginas de Início e Favoritos. Além disso, ao apertar na imagem da banda é possível acessar seus video clipes provindos da Fake API:
+Cada card possui um botão de favorito, onde é compartilhado o contexto entre as páginas de Início e Favoritos. Além disso, ao apertar na imagem da banda é possível acessar seus video clipes provindos da Fake API. Quando o card é favoritado, o mesmo é inserido na lista de favoritos localizada na aba de Favoritos, além de ser salvo no localStorage do navegador.
 
 ![image](https://user-images.githubusercontent.com/101435037/215467835-b112746f-14c0-4782-93ec-d1d50a41ed7b.png)
 
