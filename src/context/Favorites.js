@@ -16,6 +16,10 @@ export default function FavoritesProvider({ children }) {
 
 export function useFavoriteContext() {
     const {favorite, setFavorite} = useContext(FavoritesContext);
+    if (!favorite.length) {
+        const favorites = JSON.parse(localStorage.getItem('favorites'));
+        if (favorites) setFavorite(favorites);
+    }
 
     function addFavorite(newFavorite) {
         const repeatedFavorite = favorite.some(item => item.id === newFavorite.id);
@@ -23,6 +27,7 @@ export function useFavoriteContext() {
 
         if (!repeatedFavorite) {
             newList.push(newFavorite);
+            localStorage.setItem('favorites', JSON.stringify(newList));
             return setFavorite(newList);
         }
 
@@ -30,8 +35,7 @@ export function useFavoriteContext() {
             newList.findIndex(item => item.id === newFavorite.id), 1
         );
 
-        
-
+        localStorage.setItem('favorites', JSON.stringify(newList));
         return setFavorite(newList);
     }
 
