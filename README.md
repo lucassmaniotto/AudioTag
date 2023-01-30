@@ -9,7 +9,7 @@ AudioTag é uma plataforma de compartilhamento de bandas e de seus clipes desenv
 | :rocket: URL         | https://audio-tag.vercel.app/
 | 🖥 Curso    | https://cursos.alura.com.br/course/react-praticando-react-js
 
-![logo](https://user-images.githubusercontent.com/101435037/215464885-f5d1fc83-25a0-46a1-8fa6-b274338740fa.png)
+![logo](https://user-images.githubusercontent.com/101435037/215464885-f5d1fc83-25a0-46a1-8fa6-b274338740fa.png#vitrinedev)
 
 ## Detalhes do projeto
 
