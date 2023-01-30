@@ -1,10 +1,12 @@
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext } from "react";
+
+import useStorage from "hooks/useStorage";
 
 export const FavoritesContext = createContext();
 FavoritesContext.displayName = "Favorites";
 
 export default function FavoritesProvider({ children }) {
-    const [favorite, setFavorite] = useState([]);
+    const [favorite, setFavorite] = useStorage("favorite", []);
 
     return (
         <FavoritesContext.Provider
@@ -23,15 +25,14 @@ export function useFavoriteContext() {
 
         if (!repeatedFavorite) {
             newList.push(newFavorite);
+            localStorage.setItem("favorite", JSON.stringify(newList));
             return setFavorite(newList);
         }
 
         newList.splice(
             newList.findIndex(item => item.id === newFavorite.id), 1
         );
-
-        
-
+        localStorage.setItem("favorite", JSON.stringify(newList));
         return setFavorite(newList);
     }
 
